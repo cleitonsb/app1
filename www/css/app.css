@@ -1,0 +1,322 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;	
+}
+
+.label{
+	font-size: 16px !important;
+}
+
+.aviso-texto{
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px !important;
+}
+
+.clearfix{
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.green{
+	color: green;
+}
+
+.blue{
+	color: #3f8bdf;
+}
+
+.content-block-title{
+	color: #000;
+	font-size: 24px;
+	height: 26px;
+}
+
+.full{
+	width: 100%;
+}
+
+.hide{
+	display: none;
+}
+
+.item-media{
+	color: #999;
+}
+
+.item-inner{
+	margin-left: 0px !important;
+}
+
+.row-botao{
+	margin-top: 20px;
+}
+
+.corpo-padding{
+	padding: 20px;
+}
+
+/*-- Page inicial ----*/
+.div-botton{
+	position: fixed;
+	bottom: 0;
+	width: 90%;
+}
+
+.list-block ul {
+	border-top: 1px solid #fff !important;
+}
+
+/*--- login ----*/
+
+.login-screen-title img{
+	width: 90px;
+}
+
+#login{
+	padding: 5%;
+	background-color: #333;
+	color: #fff;
+}
+
+#login .label{
+	color: #fff !important;
+}
+
+#login input{
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	font-weight: bold;
+}
+
+.label-checkbox .item-media{
+	width: 25px;
+	float: left;
+}
+
+.label-checkbox .item-inner{
+	width: calc(100% - 25px);
+	float: left;
+}
+
+#login a{
+	color: #fff;
+	font-weight: bold;
+}
+
+/*--- menu ------*/
+.div-usuario{
+	text-align: center;
+}
+
+#userFoto{
+	font-size: 100px;	
+	color: #2196F3;
+}
+
+.div-sair{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	font-size: 50px;
+	color: #2196F3;	
+	width: 100%;
+}
+
+.div-sair i{
+	text-align: center;	
+}
+
+/*-- principal */
+.size-padrao{
+	font-size: 12px;
+}
+
+.banheiro-label{
+	float: left;
+	width: 10%;
+}
+
+.banheiro-0 span{
+	margin-left: 15%;
+}
+
+.banheiro-1 span{
+	margin-left: 15%;
+}
+
+.banheiro-2 span{
+	margin-left: 22%;
+}
+
+.banheiro-3 span{
+	margin-left: 31%;
+}
+
+.banheiro-4 span{
+	margin-left: 41%;
+}
+
+.banheiro-5 span{
+	margin-left: 54%;
+}
+
+.banheiro-6 span{
+	margin-left: 60%;
+}
+
+.banheiro-7 span{
+	margin-left: 70%;
+}
+
+.banheiro-8 span{
+	margin-left: 78%;
+}
+
+/*-- servicos -------------------*/
+#servicoDetalha .label{
+	font-size: 12px;
+	color: #999;
+}
+
+#servicoDetalha .item-input{
+	font-size: 18px;
+}
+
+#servicoDetalha .row{
+	width: calc(100% - 20px);
+	margin: 0 auto;
+	padding-bottom: 20px;	
+}
+
+#divAgendados i, #divConcluidos i{
+	font-size: 30px;
+}
+
+#divAgendados .fa-info-circle, #divConcluidos .fa-info-circle{
+	color: #edd400;
+}
+
+#divAgendados .fa-check-circle, #divConcluidos .fa-check-circle{
+	color: #4e9a06;
+}
+
+#divAgendados .fa-minus-circle, #divConcluidos .fa-minus-circle{
+	color: #a40000;
+}
+
+#divAgendados .desc-pag, #divConcluidos .desc-pag{
+	font-size: 10px;
+}
+
+#divAgendados .item-content, #divConcluidos .item-content{
+	width: 100% !important;
+	padding-left: 0px !important;
+}
+
+#divNoagendados p, #divNoconcluidos p{
+	text-align: center;
+	padding: 30px 0px 30px 0px;
+}
+
+#divNoagendados, #divNoconcluidos{
+	display: none;
+}
+
+/*-- cartoes ---------------------*/
+.cartoes, .card{
+	/*width: 100%;*/
+}
+
+
+
+#divCartoes .card-content-inner{
+	font-size: 18px;
+}
+
+.no-data p{
+	text-align: center;
+	padding: 30px 0px 30px 0px;
+}
+
+.detalha-cartao .item-desc{
+	color: #000 !important;
+	font-size: 22px;
+	border-bottom: 1px solid #e4e4e4;
+	
+}
+
+.detalha-cartao .item-content{
+	padding-top: 15px;
+}
+
+/*-- Cadastro --------------------------*/
+#formCadastro .select{
+	border-bottom: 1px solid #d4d4d4;
+	padding-left: 0px !important;
+}
+
+/*-- servicos */
+#resumos .label{
+	padding: 0px 0px 15px 0px;
+	font-size: 20px !important;
+}
+
+#resumos .valor{
+	font-weight: bold;
+	font-size: 20px !important;
+}
+	
+/*--- pagamentos */
+.card .card-content-inner{
+	line-height: 16px;
+}
+
+.card .titulo{
+	font-weight: bold;	
+}
+
+.card .desc{
+	font-size: 12px;
+}
+
+.card i{
+	font-size: 30px;
+}
+
+.card .servico-valor{
+	height: 45px;
+}
+
+.confirma-pagamento .valor{
+	text-align: right;
+	font-size: 60px;
+}
+
+.confirma-pagamento .cifrao{
+	text-align: left;
+	font-size: 24px;
+	padding-top: 10px;
+}
+
+.confirma-pagamento .titulo{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.formas-pagamento .card{
+	width: 100%;
+}

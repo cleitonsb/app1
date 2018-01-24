@@ -1,0 +1,93 @@
+<div data-page="cartoes-novo3" class="page" >
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="left"><a href="#" class="btn-back link icon-only"><i class="icon icon-back"></i></a></div>
+      <div class="center">Novo cartão de crédito</div>
+    </div>
+  </div>
+  <div class="page-content">    
+    <form class="list-block inputs-list" method="post" id="formCadastro2">
+    	    	
+    	<div class="content-block-title">Endereço do titular</div>
+    	<div class="content-block">
+	      <ul>
+	        <li>
+	          <div class="item-content">
+	            <div class="item-media"><i class="fa fa-globe" aria-hidden="true"></i></div>
+	            <div class="item-inner"> 
+	              <div class="item-title label">CEP</div>
+	              <div class="item-input item-input-field">
+	                <input class="form-control input-lg cep require3" id="cartaocep" name="cartaocep" placeholder="00000-000" type="tel" data-rad="cartao">
+	              </div>
+	            </div>
+	          </div>
+	        </li>
+	        <li>
+	        	<div class="item-content" >
+		            <div class="item-media"></div>
+		            <div class="item-inner not-empty-state">
+			      		<div class="item-title label">UF</div>    
+			            <select name="cartaouf" id="cartaouf" class="select uf-select" data-id="cartaoidcidade">
+			              <option value="0">Selecione</option>			              
+			            </select>
+			    	</div>
+	        	</div>
+	        </li>
+	        
+	        <li>
+	        	<div class="item-content" >
+		            <div class="item-media"></div>
+		            <div class="item-inner not-empty-state" >
+			          	<div class="item-title label">Cidade</div>
+			            <select name="cartaoidcidade" id="cartaoidcidade" class="select" >
+			              <option value="0" selected="selected">Selecione</option>				              
+			            </select>			            
+			    	</div>
+	        	</div>
+	        </li>
+	        <li>
+	          <div class="item-content">
+	            <div class="item-media"></div>
+	            <div class="item-inner"> 
+	              <div class="item-title label">Bairro</div>
+	              <div class="item-input item-input-field">
+	                <input class="form-control input-lg require3" id="cartaobairro" name="cartaobairro" placeholder="Seu bairro" type="text">
+	              </div>
+	            </div>
+	          </div>
+	        </li>
+	        
+	        <li>
+	          <div class="item-content">
+	            <div class="item-media"><i class="fa fa-road" aria-hidden="true"></i></div>
+	            <div class="item-inner"> 
+	              <div class="item-title label">Logradouro</div>
+	              <div class="item-input item-input-field">
+	                <input class="form-control input-lg require3" id="cartaologradouro" name="cartaologradouro" placeholder="Rua, avenida, quadra, etc." type="text">
+	              </div>
+	            </div>
+	          </div>
+	        </li>
+	        
+	        <li>
+	          <div class="item-content">
+	            <div class="item-media"></div>
+	            <div class="item-inner"> 
+	              <div class="item-title label">Nº</div>
+	              <div class="item-input item-input-field">
+	                <input class="form-control input-lg inteiro" id="cartaonumero" name="cartaonumero" placeholder="Numero" type="number">
+	              </div>
+	            </div>
+	          </div>
+	        </li>
+	        
+    	</ul>
+    	</div>
+    	
+    	<div class="content-block text-center">
+      		<a href="javascript:" id="btnSalvarnovocartao" class="button button-fill button-big button-raised disabled">Salvar</a>			      	
+      	</div>
+	   
+    </form>    
+  </div>
+</div>

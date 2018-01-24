@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#2196f3">
+    <title>Prime</title>
+    <link rel="stylesheet" href="plugins/f7/css/framework7.material.css">
+    <link rel="stylesheet" href="plugins/f7/css/framework7.material.colors.css">
+    
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    
+    <link rel="stylesheet" href="plugins/font-awesome/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="icon" href="img/icon.png">
+  </head>
+  <body >
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+    <div class="panel panel-left panel-cover" >
+      <div class="view navbar-fixed">
+        <div class="pages">
+          <div data-page="panel-left" class="page">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="center">Menu</div>
+              </div>
+            </div>
+            <div class="page-content">
+              <div class="content-block div-usuario">
+                <div id="userFoto">
+                	<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                </div>                
+                <div id="userNome">Usuário</div>
+              </div>
+              
+              <div class="list-block">
+                <ul>
+                  <li><a href="#" class="item-link close-panel btn-servicos">
+                      <div class="item-content">
+                        <div class="item-media"><i class="fa fa-list" aria-hidden="true"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Meus serviços</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="#" class="item-link close-panel btn-cartoes">
+                      <div class="item-content">
+                        <div class="item-media"><i class="fa fa-credit-card" aria-hidden="true"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Meus cartões</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="#" class="item-link close-panel btn-dados">
+                      <div class="item-content">
+                        <div class="item-media"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Meus dados</div>
+                        </div>
+                      </div></a>
+                  </li>                  
+                </ul>
+              </div>
+              <div class="content-block div-sair">
+                <i class="fa fa-power-off btn-sair close-panel" aria-hidden="true"></i> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+    
+    <div class="views">
+      <div class="view view-main">
+        <div class="pages navbar-fixed">
+			<div data-page="index" class="page" >
+				<div class="page-content login-screen-content" id="login" style="background-image: url('img/fundo3.jpg');  background-repeat: no-repeat; background-position: center center; background-attachment: fixed; background-size: cover;">
+			    	<div class="div-botton">
+				    	<div class="login-screen-title ">
+				    		<img alt="Prime" src="img/logob.png">
+				    	</div>
+				      
+				      	<div class="content-block text-center">
+				      		<a href="javascript:" id="btnLogin" class="button button-fill button-big button-raised">Entrar</a>			      	
+				      	</div>
+				    
+				      	<div class="content-block text-center">
+				      		Não é cadastrado? <a href="#" id="btnCadastro">Cadastre-se</a>			      	
+				      	</div>
+				      					      	
+			      	</div>			      
+			  </div>
+			</div>  
+        </div>
+      </div>
+    </div>
+      
+    <script type="text/javascript" id="jsPagseguro" src="https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js"></script>
+      
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="plugins/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="plugins/jqueryform/jquery.form.min.js"></script>
+    <script type="text/javascript" src="plugins/f7/js/framework7.js"></script>
+    <script type="text/javascript" src="plugins/mascaras/mascaras.js"></script>
+    <script type="text/javascript" src="js/validador.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/calendario.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/servicos.js"></script>
+    <script type="text/javascript" src="js/cartoes.js"></script>
+    <script type="text/javascript" src="js/localizacao.js"></script>
+    <script type="text/javascript" src="js/cadastro.js"></script>
+    <script type="text/javascript" src="js/pagamento.js"></script>
+    
+  </body>
+</html>

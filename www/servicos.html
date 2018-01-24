@@ -1,0 +1,67 @@
+
+<div data-page="servicos" class="page toolbar-fixed">
+  <div class="navbar">
+    <div class="navbar-inner">
+    <div class="left"><a href="#" class="link open-panel icon-only"><i class="icon icon-bars"></i></a></div>
+      <div class="center">Serviços</div>      
+    </div>
+  </div>
+  <div class="toolbar tabbar">
+    <div class="toolbar-inner">
+    	<a href="#tab1" class="active tab-link">Agendados</a>
+    	<a href="#tab2" class="tab-link">Concluídos</a>
+    </div>
+  </div>
+  <div class="tabs-swipeable-wrap">
+    <div class="tabs">
+      <div id="tab1" class="page-content tab active">
+        <div class="content-block">
+          
+          <div class="list-block">
+		      <ul id="divAgendados">		      	
+		      </ul>
+		      
+		      <div id="divNoagendados" >
+		      	<p>
+		      		Nenhum serviço agendado
+		      	</p>
+		      	<div class="row">
+				  <div class="col-25"></div>
+				  <div class="col-50">
+				  	<a href="#" class="button button-fill button-raised button-big btn-novoservico">Novo serviço</a>
+				  </div>
+				  <div class="col-25"></div>
+				</div>
+		      </div>
+		  </div>          
+        </div>
+      </div>
+      <div id="tab2" class="page-content tab">
+        <div class="content-block">
+          <div class="list-block">
+		      <ul id="divConcluidos"></ul>
+		      
+		      <div id="divNoconcluidos" >
+		      	<p>
+		      		Nenhum serviço concluído
+		      	</p>
+		      	<div class="row">
+				  <div class="col-25"></div>
+				  <div class="col-50">
+				  	<a href="#" class="button button-fill button-raised button-big btn-novoservico">Novo serviço</a>
+				  </div>
+				  <div class="col-25"></div>
+				</div>
+		      </div>
+		    </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  
+  <a href="#" class="floating-button color-blue btn-novoservico">
+	<i class="icon icon-plus"></i>
+  </a>
+  
+</div>
