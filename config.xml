@@ -1,12 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="prime.casolucoes.com.br" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.casolucoes.limpar" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Prime</name>
     <description>
         Prime serviços
     </description>
-    <author email="cleiton@casolucoes.com.br" href="http://casolucoes.com.br">
-        CA Soluções
-    </author>
+    <author email="cleiton@casolucoes.com.br" href="http://casolucoes.com.br">Cleiton Silva Barbosa</author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
@@ -25,6 +23,13 @@
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="StatusBarBackgroundColor" value="#0e78c9" />
     <preference name="ShowSplashScreenSpinner" value="false" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
     <platform name="android">
         <icon density="ldpi" src="res/icons/android/icon-36-ldpi.png" />
         <icon density="mdpi" src="res/icons/android/icon-48-mdpi.png" />
@@ -82,13 +87,5 @@
         <splash height="2048" src="res/screens/ios/screen-ipad-landscape-ipadpro.png" width="2732" />
         <splash height="2732" src="res/screens/ios/screen-ipad-portrait-ipadpro.png" width="2048" />
     </platform>
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-    </platform>
-    <plugin name="cordova-plugin-splashscreen" spec="^5.0.1" />
-    <plugin name="cordova-plugin-statusbar" spec="^2.4.1" />
+    <engine name="android" spec="^7.1.0" />
 </widget>

@@ -1,0 +1,4 @@
+#Sat Jul 14 10:38:58 BRT 2018
+base.0=/var/www/html/limpar-app/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
